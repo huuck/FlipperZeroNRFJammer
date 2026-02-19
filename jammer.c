@@ -402,7 +402,7 @@ int32_t jammer_app(void* p) {
                                                 "%d ",
                                                 hopping_channels_custom_arr[i]); // 1 2 3 4 1 2
                                         }
-                                        hopping_channels_len[3] = hopping_channels_custom_len;
+                                        hopping_channels_len[4] = hopping_channels_custom_len;
                                         hopping_channels = hopping_channels_custom_arr;
 
                                         FURI_LOG_D(TAG, "%s", file_buf);
